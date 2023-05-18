@@ -28,4 +28,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: tsamsom/docker-ci-automation:latest,tsamsom/docker-ci-automation:01
+          tags: ghcr.io/tsamsom/docker-ci-automation:latest,ghcr.io/tsamsom/docker-ci-automation:01
