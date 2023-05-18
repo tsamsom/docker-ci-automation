@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ghcr.io/tsamsom/docker-ci-automation:latest,ghcr.io/tsamsom/docker-ci-automation:01
+          tags: ghcr.io/snasci/docker-ci-automation:latest,ghcr.io/snasci/docker-ci-automation:01
