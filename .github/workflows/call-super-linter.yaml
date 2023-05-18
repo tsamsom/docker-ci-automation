@@ -23,7 +23,7 @@ jobs:
     ### you can also call workflows from inside the same repo via file path
 
     #FIXME: customize uri to point to your own linter repository
-    uses: tsamsom/super-linter-workflow/.github/workflows/reusable-super-linter.yaml@main
+    uses: ./.github/workflows/reusable-super-linter.yaml
     
     ### Optional settings examples
     
